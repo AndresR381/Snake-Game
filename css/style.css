@@ -22,11 +22,43 @@ body {
 .header {
     padding: 10px 0;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
     background-color: #005a9c;
     border-bottom: 2px solid red;
 }
 
+h1 {
+    text-align: center;
+}
+
 #score {
     font-size: 48px;
+}
+
+.scores-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 96%;
+    /* border: 1px solid white; */
+    text-align: left;
+}
+
+.scores {
+    width: 350px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.game-btn {
+    width: 140px;
+    height: 22px;
+    padding: 3px 18px;
+    align-self: center;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
 }
